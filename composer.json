@@ -45,7 +45,8 @@
     "autoload": {
         "psr-4": {
             "yii\\bootstrap\\": "src"
-        }
+        },
+        "files": ["PopperAsset.php"]
     },
     "extra": {
         "branch-alias": {
