@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-bootstrap4",
+    "name": "paulobrandit/yii2-bootstrap4",
     "description": "The Twitter Bootstrap extension for the Yii framework",
     "keywords": ["yii2", "bootstrap", "bootstrap4"],
     "type": "yii2-extension",
@@ -45,7 +45,8 @@
     "autoload": {
         "psr-4": {
             "yii\\bootstrap4\\": "src"
-        }
+        },
+        "files": ["PopperAsset.php"]
     },
     "extra": {
         "branch-alias": {
